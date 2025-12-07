@@ -1,8 +1,8 @@
 global:
   namespace: voting-app-prod
-  repoURL: https://github.com/CHARANPRAJWAL/example-voting-app-argocd-k8s.git
+  repoURL: git@github.com:edwardpius/example-voting-app-argocd-k8s.git
   targetRevision: main
-  project: default
+  project: voting-app-prod
 
 argocd:
   namespace: argocd
